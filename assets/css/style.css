@@ -1,0 +1,32 @@
+* {
+	color: white;
+	text-align: center;
+}
+
+body {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: black;
+}
+
+h1 {
+	display: none;
+}
+
+.title-img {
+	width: 80%;
+	max-width: 400px;
+}
+
+hr{
+	width: 20%;
+	color: rgb(78, 78, 78);
+}
+
+.download-buttons {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  gap: 20px;
+}
