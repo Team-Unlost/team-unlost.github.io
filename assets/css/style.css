@@ -117,6 +117,10 @@ hr {
     font-size: 1.3em;
   }
 
+  body {
+    max-width: 100%;
+  }
+
   p {
     font-size: 1.6em;
   }
