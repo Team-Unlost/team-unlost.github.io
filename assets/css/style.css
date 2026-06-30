@@ -41,13 +41,12 @@ h2 {
 }
 
 .silhouette {
-
-  width: 15vw;
+  width: 20%;
   margin: 15vh;
 }
 
 .title-img {
-  width: 80%;
+  width: 70%;
 }
 
 hr {
@@ -131,12 +130,17 @@ hr {
   }
 
   .silhouette {
-    width: 70%;
+    width: 60%;
   }
 
   .main {
     margin: 45vh auto 45vh;
   }
+
+  .title-img {
+    width: 90%;
+  }
+
 
   .horizontal {
     flex-direction: column;
