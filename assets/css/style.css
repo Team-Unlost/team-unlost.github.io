@@ -36,9 +36,13 @@ h2 {
   font-size: 1.7em;
 }
 
-
 .title {
   display: none;
+}
+
+.silhouette {
+  height: 15vh;
+  margin: 15vh;
 }
 
 .title-img {
@@ -104,12 +108,32 @@ hr {
 }
 
 .membre img {
-  max-width: 200px;
-  max-height: 200px;
+  width: 200px;
+  height: 200px;
   object-fit: cover;
 }
 
-@media (max-width: 650px) {
+@media (max-width: 900px) {
+  * {
+    font-size: 1.3em;
+  }
+
+  h1 {
+    font-size: 3em;
+  }
+
+  h2 {
+    font-size: 2em;
+  }
+
+  .silhouette {
+    height: 50vh;
+  }
+
+  .main {
+    margin: 45vh auto 45vh;
+  }
+
   .horizontal {
     flex-direction: column;
     gap: 0px;
